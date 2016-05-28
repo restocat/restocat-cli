@@ -1,0 +1,46 @@
+{
+  "name": "restocat-cli",
+  "version": "1.0.0",
+  "author": {
+    "name": "Maksim Chetverikov",
+    "email": "ma.chetverikov@gmail.com"
+  },
+  "homepage": "https://github.com/restocat/restocat-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/restocat/restocat-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/restocat/restocat-cli/issues",
+    "email": "ma.chetverikov@gmail.com"
+  },
+  "description": "CLI for restocat",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "bin": {
+    "restocat": "./bin/restocat.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ncp": "^2.0.0",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "json",
+    "api",
+    "jsonapi",
+    "json-api",
+    "framework",
+    "rest",
+    "restful"
+  ]
+}

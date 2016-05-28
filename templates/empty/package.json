@@ -1,0 +1,21 @@
+{
+  "name": "restocat-project",
+  "version": "0.0.0",
+  "description": "Empty project based on Restocat",
+  "main": "./server.js",
+  "author": "Restocat",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "restocat": "^1.0.0-alpha.6",
+    "restocat-logger": "^1.0.0-alpha.3"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "npm run release",
+    "release": "node ./server.js release",
+    "debug": "node ./server.js"
+  }
+}
