@@ -7,8 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.1",
-    "restocat": "^1.0.0-RC",
-    "restocat-logger": "^1.0.0-RC"
+    "restocat": "^1.0.0",
+    "restocat-logger": "^1.0.0"
   },
   "engines": {
     "node": ">=6"
