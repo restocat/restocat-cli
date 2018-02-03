@@ -6,12 +6,13 @@
   "author": "Restocat",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "restocat": "^1.0.0",
-    "restocat-logger": "^1.0.0"
+    "body-parser": "^1.18.2",
+    "restocat": "^3.0.1",
+    "restocat-logger": "^2.0.0",
+    "restocat-watcher": "^1.0.0"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "start": "npm run release",

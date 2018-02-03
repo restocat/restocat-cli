@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-'use strict';
-
 const program = require('commander');
 const templateManager = require('../lib/templateManager');
 const packageInfo = require('../package.json');
